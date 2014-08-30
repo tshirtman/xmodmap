@@ -1,2 +1,4 @@
-ln -sf Xmodmap ~/.Xmodmap
+#!/usr/bin/env sh
+
+ln -sf $PWD/Xmodmap ~/.Xmodmap
 xmodmap ~/.Xmodmap
